@@ -9,7 +9,7 @@ if __name__ == "__main__":
         print("{} argument:".format(largv - 1))
         print("{}: {}".format(largv, argv1[0]))
     else:
-        print("{} arguments:".format(largv - 1))
-        for i in range (largv - 1):
-            if largv != 1:
-                print("{}: {}".format(i + 1, argv1[i + 1]))
+	print("{} arguments:".format(largv - 1))
+	i = 1;
+	for i in range (largv):
+	    print("{}: {}".format(i, argv1[i]))
